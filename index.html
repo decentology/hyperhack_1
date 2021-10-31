@@ -16,6 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -106,7 +107,7 @@
           ><i class="fa fa-user"></i> About</a
         >
         <a href="#resources" class="w3-bar-item w3-button w3-hide-small"
-          ><i class="fa fa-user"></i> Resources</a
+          ><i class="fa fa-book"></i> Resources</a
         >
 
         <a href="#COC" class="w3-bar-item w3-button w3-hide-small"
@@ -147,7 +148,8 @@
     </div>
 
     <!-- First Parallax Image with Logo Text -->
-    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-container w3-opacity-min" style="background-color: blue;
+	background-image: linear-gradient(to bottom right, blue, green, yellow)" id="home">
       <div class="w3-display-middle" style="white-space: nowrap">
         <span
           class="
@@ -158,14 +160,14 @@
             w3-wide
             w3-animate-opacity
           "
-          ><span class="w3-hide-small">Hyperhack</span></span
+          ><span class="w3-hide-small" style="font-family: audiowide; size:3rem">Hyperhack</span></span
         >
       </div>
     </div>
 
     <!-- Container (About Section) -->
 		<div class="w3-content w3-container w3-padding-64" id="about">
-      <h2 class="w3-center">ABOUT HYPERHACK</h2>
+      <h2 class="w3-center" >ABOUT HYPERHACK</h2>
       <p class="w3-center"><em>We're working on something big, and we want you to be a part of it!</em></p>
       <p>
         Learn about Decentology's <a href="https://www.decentology.com/blog/composing-the-hyperverse">Hyperverse</a>, write, record, and/or produce content about your big ideas, or if you're up for the challenge—and the biggest prize—build a Dapp using Hyperverse and tell us how you did it.
@@ -194,7 +196,7 @@
       <div
         class="w3-row w3-center w3-padding-16"
 		style="background-color: #0a2044;
-	  background-image: linear-gradient(to bottom right, #0a2044, green)"
+	  background-image: linear-gradient(to bottom right, #0a2044, green, yellow)"
       >
         <div class="w3-col m6 w3-center w3-padding-large">
           <button
@@ -289,6 +291,26 @@
 
 	<p>If you have feedback, we'd love to hear it! You can create a <a href="https://github.com/decentology/hyperhack_1/discussions">discussion post</a> or join us on <a href="https://discord.com/invite/uqecGxg">Discord.</a> </p>
 	</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+	<div class="w3-display-middle">
+	  <span class="w3-xxlarge w3-text-white w3-wide">MORE ON THE HYPERVERSE</span>
+	</div>
+  </div>
+  <div class="w3-panel">
+	  <p><em>The Hyperverse is an open, blockchain-agnostic, decentralized, marketplace for composable smart contracts. It is a solution specifically architected for decentralized composability at scale, and focuses on four capabilities: Development, Security, Discoverability, Monetization.</em></p>
+<ul>
+	<img src="https://assets.website-files.com/5e1345925aa398c7150cf852/616efd03bb1b33e7da748ee6_Hyperverse-Architecture.png" loading="lazy" alt="">
+	<li><a href="https://www.decentology.com/blog/composing-the-hyperverse">Composing the Hyperverse</a></li>
+	<li><a href="https://www.youtube.com/watch?v=G58jLAIgTvk">Hyperverse Platform Joins Algorand!
+	</a></li>
+</ul>	
+	<div>
+		<h4>Video Walkthroughs</h4>
+		<!-- Links go here -->
+	</div>
+  </div>
 
     <!-- Modal for full size images on click-->
     <div
